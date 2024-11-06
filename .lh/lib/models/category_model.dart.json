@@ -1,0 +1,74 @@
+{
+    "sourceFile": "lib/models/category_model.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1730917230125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1730917256341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-String id, na\n\\ No newline at end of file\n+String id, name, Color(),;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730917267648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-String id, name, Color(),;\n\\ No newline at end of file\n+String id, name, ,color;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730917275845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-String id, name, ,color;\n\\ No newline at end of file\n+String id, name, imageNamecolor;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730917281528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-String id, name, imageNamecolor;\n\\ No newline at end of file\n+String id, name, imageName\r\n+  \r\n+color;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730917291591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n-String id, name, imageName\r\n-  \r\n-color;\n\\ No newline at end of file\n+String id, name, imageName;\r\n+  Color\r\n+  color;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730917312548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n-String id, name, imageName;\r\n-  Color\r\n-  color;\n\\ No newline at end of file\n+class CategoryModel {\r\n+  String id, name, imageName;\r\n+Color color;\r\n+\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730917317577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,10 @@\n+// ignore_for_file: public_member_api_docs, sort_constructors_first\r\n class CategoryModel {\r\n   String id, name, imageName;\r\n Color color;\r\n+  CategoryModel({\r\n\\ No newline at end of file\n+    required this.imageName,\r\n+    required this.color,\r\n+  });\r\n \r\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730917327140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,8 @@\n-// ignore_for_file: public_member_api_docs, sort_constructors_first\r\n class CategoryModel {\r\n   String id, name, imageName;\r\n-Color color;\r\n+  Color color;\r\n   CategoryModel({\r\n     required this.imageName,\r\n     required this.color,\r\n   });\r\n-\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730917336642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n class CategoryModel {\r\n   String id, name, imageName;\r\n   Color color;\r\n+ \r\n+ \r\n   CategoryModel({\r\n     required this.imageName,\r\n     required this.color,\r\n   });\r\n"
+                },
+                {
+                    "date": 1730917350630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n class CategoryModel {\r\n-  String id, name, imageName;\r\n+  String id,\r\n+   name, imageName;\r\n   Color color;\r\n  \r\n  \r\n   CategoryModel({\r\n"
+                },
+                {
+                    "date": 1730917357463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n class CategoryModel {\r\n   String id,\r\n-   name, imageName;\r\n+ String  name, \r\n+ String imageName;\r\n   Color color;\r\n  \r\n  \r\n   CategoryModel({\r\n"
+                },
+                {
+                    "date": 1730917369604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,13 @@\n class CategoryModel {\r\n-  String id,\r\n- String  name, \r\n+  String id;\r\n+ String  name;\r\n  String imageName;\r\n   Color color;\r\n  \r\n  \r\n   CategoryModel({\r\n     required this.imageName,\r\n     required this.color,\r\n+    required thi\r\n   });\r\n }\r\n"
+                },
+                {
+                    "date": 1730917380514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,8 @@\n  \r\n   CategoryModel({\r\n     required this.imageName,\r\n     required this.color,\r\n-    required thi\r\n+    required this.id,\r\n+    required this.name,\r\n   });\r\n }\r\n"
+                },
+                {
+                    "date": 1730917385784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,11 @@\n   Color color;\r\n  \r\n  \r\n   CategoryModel({\r\n+        required this.id,\r\n+    required this.name,\r\n     required this.imageName,\r\n     required this.color,\r\n-    required this.id,\r\n-    required this.name,\r\n+\r\n   });\r\n }\r\n"
+                }
+            ],
+            "date": 1730917230125,
+            "name": "Commit-0",
+            "content": "String id, na"
+        }
+    ]
+}

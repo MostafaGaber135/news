@@ -1,11 +1,12 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:news/app_theme.dart';
 import 'package:news/screens/home_screen.dart';
 
 class CustomSplashScreen extends StatelessWidget {
   const CustomSplashScreen({super.key});
-  static const routeName = 'splash';
+  static const String routeName = 'splash';
   @override
   Widget build(BuildContext context) {
     Timer(
@@ -16,16 +17,18 @@ class CustomSplashScreen extends StatelessWidget {
         HomeScreen.routeName,
       );
     });
-    return Scaffold(
-      body: Container(
-        decoration: const BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage(
-              'assets/images/pattern.png',
-            ),
+
+    return Container(
+      decoration: const BoxDecoration(
+        color: AppTheme.white,
+        image: DecorationImage(
+          image: AssetImage(
+            'assets/images/pattern.png',
           ),
         ),
-        child: Center(
+      ),
+      child: Scaffold(
+        body: Center(
           child: Image.asset(
             'assets/images/logo.png',
           ),

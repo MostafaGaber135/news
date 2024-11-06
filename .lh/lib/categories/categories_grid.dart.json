@@ -1,0 +1,294 @@
+{
+    "sourceFile": "lib/categories/categories_grid.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 69,
+            "patches": [
+                {
+                    "date": 1730912898739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1730912918542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-statles\n\\ No newline at end of file\n+stat\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730912928041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +0,0 @@\n-stat\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730912958724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+stl\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730912971062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,8 @@\n-stl\n\\ No newline at end of file\n+class name extends StatelessWidget {\r\n+  const name({super.key});\r\n+\r\n+  @override\r\n+  Widget build(BuildContext context) {\r\n+    return Container();\r\n+  }\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730912983626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n-class name extends StatelessWidget {\r\n-  const name({super.key});\r\n+class C extends StatelessWidget {\r\n+  const C({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return Container();\r\n"
+                },
+                {
+                    "date": 1730912988807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n-class C extends StatelessWidget {\r\n-  const C({super.key});\r\n+import 'package:flutter/material.dart';\r\n \r\n+class CategoriesGrid extends StatelessWidget {\r\n+  const CategoriesGrid({super.key});\r\n+\r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return Container();\r\n   }\r\n"
+                },
+                {
+                    "date": 1730913151512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,9 @@\n   const CategoriesGrid({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    return Container();\r\n+    return Container(\r\n+      child: ,\r\n+    );\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730913156978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,10 @@\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return Container(\r\n-      child: ,\r\n+      child: Column(\r\n+        chi\r\n+      ),\r\n     );\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730913165329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,12 @@\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return Container(\r\n-      child: Column(\r\n-        chi\r\n+      child: const Column(\r\n+        children: [\r\n+          Text('data')\r\n+        ],\r\n       ),\r\n     );\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730913396259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,10 @@\n   Widget build(BuildContext context) {\r\n     return Container(\r\n       child: const Column(\r\n         children: [\r\n-          Text('data')\r\n+          Text('Pick your category \r\n+of interest')\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n"
+                },
+                {
+                    "date": 1730913401768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,9 @@\n   Widget build(BuildContext context) {\r\n     return Container(\r\n       child: const Column(\r\n         children: [\r\n-          Text('Pick your category \r\n-of interest')\r\n+          Text('Pick your category of interest',)\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n"
+                },
+                {
+                    "date": 1730913408427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   Widget build(BuildContext context) {\r\n     return Container(\r\n       child: const Column(\r\n         children: [\r\n-          Text('Pick your category of interest',)\r\n+          Text('Pick your category of interest',),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n"
+                },
+                {
+                    "date": 1730913429322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,13 @@\n   Widget build(BuildContext context) {\r\n     return Container(\r\n       child: const Column(\r\n         children: [\r\n-          Text('Pick your category of interest',),\r\n+          Text(\r\n+            'Pick your category of interest',\r\n+            style: ,\r\n+          ),\r\n         ],\r\n\\ No newline at end of file\n       ),\r\n     );\r\n   }\r\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730913483047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n       child: const Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: ,\r\n+            style:  ,\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730915500456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n       child: const Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style:  ,\r\n+            style: ,\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730915534059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n       child: const Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: ,\r\n+            style: theme.of,\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730915540665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n       child: const Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: theme.of,\r\n+            style: theme.of(context),\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730915550520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n       child: const Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: theme.of(context),\r\n+            style: Theme.of(context).Text,\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730915559652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n       child: const Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: Theme.of(context).Text,\r\n+            style: Theme.of(context).text,\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730915578103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n       child: const Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: Theme.of(context).text,\r\n+            style: Theme.of(context).textTheme.l,\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730915584469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n       child: const Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: Theme.of(context).textTheme.l,\r\n+            style: Theme.of(context).textTheme.titleLarge.,\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730915623195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n       child: const Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: Theme.of(context).textTheme.titleLarge.,\r\n+            style: Theme.of(context).textTheme.titleLarge.?.copyWoth,\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730915629290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n       child: const Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: Theme.of(context).textTheme.titleLarge.?.copyWoth,\r\n+            style: Theme.of(context).textTheme.titleLarge.?.copyWth(),\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730915634823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,15 +5,15 @@\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return Container(\r\n-      child: const Column(\r\n+      child:  Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: Theme.of(context).textTheme.titleLarge.?.copyWth(),\r\n+            style: Theme.of(context).textTheme.titleLarge.?.copyWith(),\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n\\ No newline at end of file\n   }\r\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730915646984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n       child:  Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: Theme.of(context).textTheme.titleLarge.?.copyWith(),\r\n+            style: Theme.of(context).textTheme.titleLarge.?.copyWith(color:),\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730915652577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n       child:  Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: Theme.of(context).textTheme.titleLarge.?.copyWith(color:),\r\n+            style: Theme.of(context).textTheme.titleLarge.?.copyWith(color:AppTHEME.),\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730915708791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import 'package:flutter/material.dart';\r\n+\r\n+class CategoriesGrid extends StatelessWidget {\r\n+  const CategoriesGrid({super.key});\r\n+\r\n+  @override\r\n+  Widget build(BuildContext context) {\r\n+    return Container(\r\n+      child:  Column(\r\n+        children: [\r\n+          Text(\r\n+            'Pick your category of interest',\r\n+            style: Theme.of(context).textTheme.titleLarge.?.copyWith(color:AppTheme.steelGray),\r\n+          ),\r\n+        ],\r\n+      ),\r\n+    );\r\n+  }\r\n+}\r\n"
+                },
+                {
+                    "date": 1730915716213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import 'package:flutter/material.dart';\r\n+import 'package:news/app_theme.dart';\r\n \r\n class CategoriesGrid extends StatelessWidget {\r\n   const CategoriesGrid({super.key});\r\n \r\n@@ -16,23 +17,4 @@\n       ),\r\n     );\r\n   }\r\n }\r\n-import 'package:flutter/material.dart';\r\n-\r\n-class CategoriesGrid extends StatelessWidget {\r\n-  const CategoriesGrid({super.key});\r\n-\r\n-  @override\r\n-  Widget build(BuildContext context) {\r\n-    return Container(\r\n-      child:  Column(\r\n-        children: [\r\n-          Text(\r\n-            'Pick your category of interest',\r\n-            style: Theme.of(context).textTheme.titleLarge.?.copyWith(color:AppTHEME.),\r\n-          ),\r\n-        ],\r\n-      ),\r\n-    );\r\n-  }\r\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730915847344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n       child:  Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: Theme.of(context).textTheme.titleLarge.?.copyWith(color:AppTheme.steelGray),\r\n+            style: Theme.of(context).textTheme.titleLarge.copyWith(color:AppTheme.steelGray,),\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n"
+                },
+                {
+                    "date": 1730915864267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n       child:  Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: Theme.of(context).textTheme.titleLarge.copyWith(color:AppTheme.steelGray,),\r\n+            style: Theme.of(context).textTheme.titleLarge?.copyWith(color:AppTheme.steelGray,),\r\n           ),\r\n         ],\r\n       ),\r\n     );\r\n"
+                },
+                {
+                    "date": 1730916329708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,14 +6,17 @@\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return Container(\r\n-      child:  Column(\r\n+      child: Column(\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n-            style: Theme.of(context).textTheme.titleLarge?.copyWith(color:AppTheme.steelGray,),\r\n+            style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n+                  color: AppTheme.steelGray,\r\n+                ),\r\n           ),\r\n+          Gridv\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n"
+                },
+                {
+                    "date": 1730916343860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n             style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n                   color: AppTheme.steelGray,\r\n                 ),\r\n           ),\r\n-          Gridv\r\n+          GridView.builder(gridDelegate: sliv, itemBuilder: itemBuilder)\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n"
+                },
+                {
+                    "date": 1730916353936,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n             style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n                   color: AppTheme.steelGray,\r\n                 ),\r\n           ),\r\n-          GridView.builder(gridDelegate: sliv, itemBuilder: itemBuilder)\r\n+          GridView.builder(gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), itemBuilder: )\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n"
+                },
+                {
+                    "date": 1730916369169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n             style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n                   color: AppTheme.steelGray,\r\n                 ),\r\n           ),\r\n-          GridView.builder(gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), itemBuilder: )\r\n+          GridView.builder(gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), itemBuilder: (_,index)=> )\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n"
+                },
+                {
+                    "date": 1730916406314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n             style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n                   color: AppTheme.steelGray,\r\n                 ),\r\n           ),\r\n-          GridView.builder(gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), itemBuilder: (_,index)=> )\r\n+          GridView.builder(gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), itemBuilder: (_,index)=> categit)\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n"
+                },
+                {
+                    "date": 1730916476736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import 'package:flutter/material.dart';\r\n import 'package:news/app_theme.dart';\r\n+import 'package:news/categories/category_item.dart';\r\n \r\n class CategoriesGrid extends StatelessWidget {\r\n   const CategoriesGrid({super.key});\r\n \r\n@@ -14,9 +15,15 @@\n             style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n                   color: AppTheme.steelGray,\r\n                 ),\r\n           ),\r\n-          GridView.builder(gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), itemBuilder: (_,index)=> categit)\r\n+          Expa(\r\n+            child: GridView.builder(\r\n+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n+                  crossAxisCount: 2),\r\n+              itemBuilder: (_, index) => const CategoryItem(),\r\n+            ),\r\n+          ),\r\n         ],\r\n       ),\r\n     );\r\n   }\r\n"
+                },
+                {
+                    "date": 1730916507997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,13 +15,14 @@\n             style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n                   color: AppTheme.steelGray,\r\n                 ),\r\n           ),\r\n-          Expa(\r\n+          Expanded(\r\n             child: GridView.builder(\r\n               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n                   crossAxisCount: 2),\r\n               itemBuilder: (_, index) => const CategoryItem(),\r\n+              itemCount: 6,\r\n             ),\r\n           ),\r\n         ],\r\n       ),\r\n"
+                },
+                {
+                    "date": 1730917412450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n   const CategoriesGrid({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n+    List<catemo>\r\n     return Container(\r\n       child: Column(\r\n         children: [\r\n           Text(\r\n"
+                },
+                {
+                    "date": 1730917422034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,15 @@\n import 'package:flutter/material.dart';\r\n import 'package:news/app_theme.dart';\r\n import 'package:news/categories/category_item.dart';\r\n+import 'package:news/models/category_model.dart';\r\n \r\n class CategoriesGrid extends StatelessWidget {\r\n   const CategoriesGrid({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    List<catemo>\r\n+    List<CategoryModel> categories = List.generate(6, generator)\r\n     return Container(\r\n       child: Column(\r\n         children: [\r\n           Text(\r\n"
+                },
+                {
+                    "date": 1730917430758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   const CategoriesGrid({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    List<CategoryModel> categories = List.generate(6, generator)\r\n+    List<CategoryModel> categories = List.generate(6, (index)=> cate)\r\n     return Container(\r\n       child: Column(\r\n         children: [\r\n           Text(\r\n"
+                },
+                {
+                    "date": 1730917437227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   const CategoriesGrid({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    List<CategoryModel> categories = List.generate(6, (index)=> cate)\r\n+    List<CategoryModel> categories = List.generate(6, (index)=> CategoryModel(id: id, name: name, imageName: imageName, color: color))\r\n     return Container(\r\n       child: Column(\r\n         children: [\r\n           Text(\r\n"
+                },
+                {
+                    "date": 1730917446080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   const CategoriesGrid({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    List<CategoryModel> categories = List.generate(6, (index)=> CategoryModel(id: id, name: name, imageName: imageName, color: color))\r\n+    List<CategoryModel> categories = List.generate(6, (index)=> CategoryModel(id: 'id', name: name, imageName: imageName, color: color));\r\n     return Container(\r\n       child: Column(\r\n         children: [\r\n           Text(\r\n"
+                },
+                {
+                    "date": 1730917456555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   const CategoriesGrid({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    List<CategoryModel> categories = List.generate(6, (index)=> CategoryModel(id: 'id', name: name, imageName: imageName, color: color));\r\n+    List<CategoryModel> categories = List.generate(6, (index)=> CategoryModel(id: 'id', name: name, imageName: imageName, color: AppTheme.grayBlue),);\r\n     return Container(\r\n       child: Column(\r\n         children: [\r\n           Text(\r\n"
+                },
+                {
+                    "date": 1730917461843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   const CategoriesGrid({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    List<CategoryModel> categories = List.generate(6, (index)=> CategoryModel(id: 'id', name: name, imageName: imageName, color: AppTheme.grayBlue),);\r\n+    List<CategoryModel> categories = List.generate(6, (index)=> CategoryModel(id: 'id', name: 'name', imageName: 'imageName', color: AppTheme.grayBlue),);\r\n     return Container(\r\n       child: Column(\r\n         children: [\r\n           Text(\r\n"
+                },
+                {
+                    "date": 1730917470835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,16 @@\n   const CategoriesGrid({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    List<CategoryModel> categories = List.generate(6, (index)=> CategoryModel(id: 'id', name: 'name', imageName: 'imageName', color: AppTheme.grayBlue),);\r\n+    List<CategoryModel> categories = List.generate(\r\n+      6,\r\n+      (index) => CategoryModel(\r\n+          id: '$index',\r\n+          name: 'name',\r\n+          imageName: 'imageName',\r\n+          color: AppTheme.grayBlue),\r\n+    );\r\n     return Container(\r\n       child: Column(\r\n         children: [\r\n           Text(\r\n"
+                },
+                {
+                    "date": 1730917477616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     List<CategoryModel> categories = List.generate(\r\n       6,\r\n       (index) => CategoryModel(\r\n           id: '$index',\r\n-          name: 'name',\r\n+          name: 'Sports',\r\n           imageName: 'imageName',\r\n           color: AppTheme.grayBlue),\r\n     );\r\n     return Container(\r\n"
+                },
+                {
+                    "date": 1730917488129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       6,\r\n       (index) => CategoryModel(\r\n           id: '$index',\r\n           name: 'Sports',\r\n-          imageName: 'imageName',\r\n+          imageName: 'Sports',\r\n           color: AppTheme.grayBlue),\r\n     );\r\n     return Container(\r\n       child: Column(\r\n"
+                },
+                {
+                    "date": 1730917495893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,10 @@\n       6,\r\n       (index) => CategoryModel(\r\n           id: '$index',\r\n           name: 'Sports',\r\n-          imageName: 'Sports',\r\n-          color: AppTheme.grayBlue),\r\n+          imageName: 'sports',\r\n+          color: AppTheme.red),\r\n     );\r\n     return Container(\r\n       child: Column(\r\n         children: [\r\n"
+                },
+                {
+                    "date": 1730917533477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,12 +10,13 @@\n   Widget build(BuildContext context) {\r\n     List<CategoryModel> categories = List.generate(\r\n       6,\r\n       (index) => CategoryModel(\r\n-          id: '$index',\r\n-          name: 'Sports',\r\n-          imageName: 'sports',\r\n-          color: AppTheme.red),\r\n+        id: '$index',\r\n+        name: 'Sports',\r\n+        imageName: 'sports',\r\n+        color: AppTheme.red,\r\n+      ),\r\n     );\r\n     return Container(\r\n       child: Column(\r\n         children: [\r\n@@ -29,9 +30,9 @@\n             child: GridView.builder(\r\n               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n                   crossAxisCount: 2),\r\n               itemBuilder: (_, index) => const CategoryItem(),\r\n-              itemCount: 6,\r\n+              itemCount: categories.length,\r\n             ),\r\n           ),\r\n         ],\r\n       ),\r\n"
+                },
+                {
+                    "date": 1730917550177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,11 @@\n           Expanded(\r\n             child: GridView.builder(\r\n               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n                   crossAxisCount: 2),\r\n-              itemBuilder: (_, index) => const CategoryItem(),\r\n+              itemBuilder: (_, index) => const CategoryItem(\r\n+                \r\n+              ),\r\n               itemCount: categories.length,\r\n             ),\r\n           ),\r\n         ],\r\n"
+                },
+                {
+                    "date": 1730917559136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n             child: GridView.builder(\r\n               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n                   crossAxisCount: 2),\r\n               itemBuilder: (_, index) => const CategoryItem(\r\n-                \r\n+                category: categories[index],\r\n               ),\r\n               itemCount: categories.length,\r\n             ),\r\n           ),\r\n"
+                },
+                {
+                    "date": 1730917568941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n                 ),\r\n           ),\r\n           Expanded(\r\n             child: GridView.builder(\r\n-              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n+              gridDelegate:  const SliverGridDelegateWithFixedCrossAxisCount(\r\n                   crossAxisCount: 2),\r\n               itemBuilder: (_, index) => const CategoryItem(\r\n                 category: categories[index],\r\n               ),\r\n"
+                },
+                {
+                    "date": 1730919000045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n       ),\r\n     );\r\n     return Container(\r\n       child: Column(\r\n+        crossAxisAlignment: cros,\r\n         children: [\r\n           Text(\r\n             'Pick your category of interest',\r\n             style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n@@ -27,11 +28,11 @@\n                 ),\r\n           ),\r\n           Expanded(\r\n             child: GridView.builder(\r\n-              gridDelegate:  const SliverGridDelegateWithFixedCrossAxisCount(\r\n+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n                   crossAxisCount: 2),\r\n-              itemBuilder: (_, index) => const CategoryItem(\r\n+              itemBuilder: (_, index) => CategoryItem(\r\n                 category: categories[index],\r\n               ),\r\n               itemCount: categories.length,\r\n             ),\r\n"
+                },
+                {
+                    "date": 1730919047627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,29 +16,27 @@\n         imageName: 'sports',\r\n         color: AppTheme.red,\r\n       ),\r\n     );\r\n-    return Container(\r\n-      child: Column(\r\n-        crossAxisAlignment: cros,\r\n-        children: [\r\n-          Text(\r\n-            'Pick your category of interest',\r\n-            style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n-                  color: AppTheme.steelGray,\r\n-                ),\r\n-          ),\r\n-          Expanded(\r\n-            child: GridView.builder(\r\n-              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n-                  crossAxisCount: 2),\r\n-              itemBuilder: (_, index) => CategoryItem(\r\n-                category: categories[index],\r\n+    return Column(\r\n+      crossAxisAlignment: CrossAxisAlignment.start,\r\n+      children: [\r\n+        Text(\r\n+          'Pick your category of interest',\r\n+          style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n+                color: AppTheme.steelGray,\r\n               ),\r\n-              itemCount: categories.length,\r\n+        ),\r\n+        Expanded(\r\n+          child: GridView.builder(\r\n+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n+                crossAxisCount: 2),\r\n+            itemBuilder: (_, index) => CategoryItem(\r\n+              category: categories[index],\r\n             ),\r\n+            itemCount: categories.length,\r\n           ),\r\n-        ],\r\n-      ),\r\n+        ),\r\n+      ],\r\n     );\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1730919054824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,27 +16,30 @@\n         imageName: 'sports',\r\n         color: AppTheme.red,\r\n       ),\r\n     );\r\n-    return Column(\r\n-      crossAxisAlignment: CrossAxisAlignment.start,\r\n-      children: [\r\n-        Text(\r\n-          'Pick your category of interest',\r\n-          style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n-                color: AppTheme.steelGray,\r\n+    return Padding(\r\n+      padding: const EdgeInsets.such(8.0),\r\n+      child: Column(\r\n+        crossAxisAlignment: CrossAxisAlignment.start,\r\n+        children: [\r\n+          Text(\r\n+            'Pick your category of interest',\r\n+            style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n+                  color: AppTheme.steelGray,\r\n+                ),\r\n+          ),\r\n+          Expanded(\r\n+            child: GridView.builder(\r\n+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n+                  crossAxisCount: 2),\r\n+              itemBuilder: (_, index) => CategoryItem(\r\n+                category: categories[index],\r\n               ),\r\n-        ),\r\n-        Expanded(\r\n-          child: GridView.builder(\r\n-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n-                crossAxisCount: 2),\r\n-            itemBuilder: (_, index) => CategoryItem(\r\n-              category: categories[index],\r\n+              itemCount: categories.length,\r\n             ),\r\n-            itemCount: categories.length,\r\n           ),\r\n-        ),\r\n-      ],\r\n+        ],\r\n+      ),\r\n     );\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1730919062549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         color: AppTheme.red,\r\n       ),\r\n     );\r\n     return Padding(\r\n-      padding: const EdgeInsets.such(8.0),\r\n+      padding: const EdgeInsets.symmetric(horizontal: 24),\r\n       child: Column(\r\n         crossAxisAlignment: CrossAxisAlignment.start,\r\n         children: [\r\n           Text(\r\n"
+                },
+                {
+                    "date": 1730919091320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,17 +17,22 @@\n         color: AppTheme.red,\r\n       ),\r\n     );\r\n     return Padding(\r\n-      padding: const EdgeInsets.symmetric(horizontal: 24),\r\n+      padding: const EdgeInsets.symmetric(\r\n+        horizontal: 24,\r\n+      ),\r\n       child: Column(\r\n         crossAxisAlignment: CrossAxisAlignment.start,\r\n         children: [\r\n-          Text(\r\n-            'Pick your category of interest',\r\n-            style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n-                  color: AppTheme.steelGray,\r\n-                ),\r\n+          Padding(\r\n+            padding: const EdgeInsets.all(8.0),\r\n+            child: Text(\r\n+              'Pick your category of interest',\r\n+              style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n+                    color: AppTheme.steelGray,\r\n+                  ),\r\n+            ),\r\n           ),\r\n           Expanded(\r\n             child: GridView.builder(\r\n               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n"
+                },
+                {
+                    "date": 1730919096900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n       child: Column(\r\n         crossAxisAlignment: CrossAxisAlignment.start,\r\n         children: [\r\n           Padding(\r\n-            padding: const EdgeInsets.all(8.0),\r\n+            padding: const EdgeInsets.symmetric(8.0),\r\n             child: Text(\r\n               'Pick your category of interest',\r\n               style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n                     color: AppTheme.steelGray,\r\n"
+                },
+                {
+                    "date": 1730920005909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,11 @@\n       child: Column(\r\n         crossAxisAlignment: CrossAxisAlignment.start,\r\n         children: [\r\n           Padding(\r\n-            padding: const EdgeInsets.symmetric(8.0),\r\n+            padding: const EdgeInsets.symmetric(\r\n+              vertical: 24,\r\n+            ),\r\n             child: Text(\r\n               'Pick your category of interest',\r\n               style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n                     color: AppTheme.steelGray,\r\n@@ -35,9 +37,9 @@\n           ),\r\n           Expanded(\r\n             child: GridView.builder(\r\n               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n-                  crossAxisCount: 2),\r\n+                  crossAxisCount: 2,),\r\n               itemBuilder: (_, index) => CategoryItem(\r\n                 category: categories[index],\r\n               ),\r\n               itemCount: categories.length,\r\n"
+                },
+                {
+                    "date": 1730920011561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,11 @@\n           ),\r\n           Expanded(\r\n             child: GridView.builder(\r\n               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n-                  crossAxisCount: 2,),\r\n+                  crossAxisCount: 2,\r\n+                  main\r\n+                  ),\r\n               itemBuilder: (_, index) => CategoryItem(\r\n                 category: categories[index],\r\n               ),\r\n               itemCount: categories.length,\r\n"
+                },
+                {
+                    "date": 1730920017498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n           Expanded(\r\n             child: GridView.builder(\r\n               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n                   crossAxisCount: 2,\r\n-                  main\r\n+                  mainAxisS\r\n                   ),\r\n               itemBuilder: (_, index) => CategoryItem(\r\n                 category: categories[index],\r\n               ),\r\n"
+                },
+                {
+                    "date": 1730920022929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n           Expanded(\r\n             child: GridView.builder(\r\n               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n                   crossAxisCount: 2,\r\n-                  mainAxisS\r\n+                  mainAxisSpacing:,\r\n                   ),\r\n               itemBuilder: (_, index) => CategoryItem(\r\n                 category: categories[index],\r\n               ),\r\n"
+                },
+                {
+                    "date": 1730920028160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,9 @@\n             child: GridView.builder(\r\n               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n                   crossAxisCount: 2,\r\n                   mainAxisSpacing:,\r\n+                  crossAxisSpacing: 16),\r\n                   ),\r\n               itemBuilder: (_, index) => CategoryItem(\r\n                 category: categories[index],\r\n               ),\r\n"
+                },
+                {
+                    "date": 1730920044352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n           Expanded(\r\n             child: GridView.builder(\r\n               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n                   crossAxisCount: 2,\r\n-                  mainAxisSpacing:,\r\n+                  mainAxisSpacing:24,\r\n                   crossAxisSpacing: 16),\r\n                   ),\r\n               itemBuilder: (_, index) => CategoryItem(\r\n                 category: categories[index],\r\n"
+                },
+                {
+                    "date": 1730920055142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n             child: GridView.builder(\r\n               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n                   crossAxisCount: 2,\r\n                   mainAxisSpacing:24,\r\n-                  crossAxisSpacing: 16),\r\n+                  crossAxisSpacing: 24,),\r\n                   ),\r\n               itemBuilder: (_, index) => CategoryItem(\r\n                 category: categories[index],\r\n               ),\r\n"
+                },
+                {
+                    "date": 1730920074123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,10 +39,11 @@\n             child: GridView.builder(\r\n               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n                   crossAxisCount: 2,\r\n                   mainAxisSpacing:24,\r\n-                  crossAxisSpacing: 24,),\r\n+                  crossAxisSpacing: 24,\r\n                   ),\r\n+                  ),\r\n               itemBuilder: (_, index) => CategoryItem(\r\n                 category: categories[index],\r\n               ),\r\n               itemCount: categories.length,\r\n"
+                },
+                {
+                    "date": 1730920085743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n                   crossAxisCount: 2,\r\n                   mainAxisSpacing:24,\r\n                   crossAxisSpacing: 24,\r\n                   ),\r\n-                  ),\r\n+               \r\n               itemBuilder: (_, index) => CategoryItem(\r\n                 category: categories[index],\r\n               ),\r\n               itemCount: categories.length,\r\n"
+                },
+                {
+                    "date": 1730920091344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,8 @@\n                   crossAxisCount: 2,\r\n                   mainAxisSpacing:24,\r\n                   crossAxisSpacing: 24,\r\n                   ),\r\n-               \r\n               itemBuilder: (_, index) => CategoryItem(\r\n                 category: categories[index],\r\n               ),\r\n               itemCount: categories.length,\r\n"
+                },
+                {
+                    "date": 1730932342923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,56 @@\n+import 'package:flutter/material.dart';\r\n+import 'package:news/app_theme.dart';\r\n+import 'package:news/categories/category_item.dart';\r\n+import 'package:news/models/category_model.dart';\r\n+\r\n+class CategoriesGrid extends StatelessWidget {\r\n+  const CategoriesGrid({super.key});\r\n+\r\n+  @override\r\n+  Widget build(BuildContext context) {\r\n+    List<CategoryModel> categories = List.generate(\r\n+      6,\r\n+      (index) => CategoryModel(\r\n+        id: '$index',\r\n+        name: 'Sports',\r\n+        imageName: 'sports',\r\n+        color: AppTheme.red,\r\n+      ),\r\n+    );\r\n+    return Padding(\r\n+      padding: const EdgeInsets.symmetric(\r\n+        horizontal: 24,\r\n+      ),\r\n+      child: Column(\r\n+        crossAxisAlignment: CrossAxisAlignment.start,\r\n+        children: [\r\n+          Padding(\r\n+            padding: const EdgeInsets.symmetric(\r\n+              vertical: 24,\r\n+            ),\r\n+            child: Text(\r\n+              'Pick your category of interest',\r\n+              style: Theme.of(context).textTheme.titleLarge?.copyWith(\r\n+                    color: AppTheme.steelGray,\r\n+                  ),\r\n+            ),\r\n+          ),\r\n+          Expanded(\r\n+            child: GridView.builder(\r\n+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(\r\n+                crossAxisCount: 2,\r\n+                mainAxisSpacing: 24,\r\n+                crossAxisSpacing: 24,\r\n+              ),\r\n+              itemBuilder: (_, index) => CategoryItem(\r\n+                category: categories[index],\r\n+                ind\r\n+              ),\r\n+              itemCount: categories.length,\r\n+            ),\r\n+          ),\r\n+        ],\r\n+      ),\r\n+    );\r\n+  }\r\n+}\r\n"
+                }
+            ],
+            "date": 1730912898739,
+            "name": "Commit-0",
+            "content": "statles"
+        }
+    ]
+}
