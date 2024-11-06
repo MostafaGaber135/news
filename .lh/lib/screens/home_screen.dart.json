@@ -1,0 +1,30 @@
+{
+    "sourceFile": "lib/screens/home_screen.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1730895443131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1730895456810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n+import 'package:flutter/material.dart';\r\n+\r\n class HomeScreen extends StatelessWidget {\r\n   const HomeScreen({super.key});\r\n-\r\n+static const routeName = ''\r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return Container();\r\n   }\r\n"
+                },
+                {
+                    "date": 1730895462086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import 'package:flutter/material.dart';\r\n \r\n class HomeScreen extends StatelessWidget {\r\n   const HomeScreen({super.key});\r\n-static const routeName = ''\r\n+static const routeName = 'home-screen';\r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return Container();\r\n   }\r\n"
+                },
+                {
+                    "date": 1730895999414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n   const HomeScreen({super.key});\r\n static const routeName = 'home-screen';\r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    return Container();\r\n+    return const Scaffold();\r\n   }\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1730895443131,
+            "name": "Commit-0",
+            "content": "class HomeScreen extends StatelessWidget {\r\n  const HomeScreen({super.key});\r\n\r\n  @override\r\n  Widget build(BuildContext context) {\r\n    return Container();\r\n  }\r\n}"
+        }
+    ]
+}
