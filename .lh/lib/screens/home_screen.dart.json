@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1730895443131,
@@ -20,6 +20,30 @@
                 {
                     "date": 1730895999414,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n   const HomeScreen({super.key});\r\n static const routeName = 'home-screen';\r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    return Container();\r\n+    return const Scaffold();\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730896342333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import 'package:flutter/material.dart';\r\n \r\n class HomeScreen extends StatelessWidget {\r\n   const HomeScreen({super.key});\r\n-static const routeName = 'home-screen';\r\n+  static const String routeName = 'home-screen';\r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return const Scaffold();\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730896342358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import 'package:flutter/material.dart';\r\n+\r\n+class HomeScreen extends StatelessWidget {\r\n+  const HomeScreen({super.key});\r\n+  static const String routeName = 'home-screen';\r\n+  @override\r\n+  Widget build(BuildContext context) {\r\n+    return const Scaffold();\r\n+  }\r\n+}\r\n"
+                },
+                {
+                    "date": 1730898523688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,17 +4,31 @@\n   const HomeScreen({super.key});\r\n   static const String routeName = 'home-screen';\r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    return const Scaffold();\r\n+    return Container(\r\n+      decoration: const BoxDecoration(\r\n+        image: DecorationImage(\r\n+          image: AssetImage(\r\n+            'assets/images/pattern.png',\r\n+          ),\r\n+        ),\r\n+      ),\r\n+      child: Scaffold(\r\n+        body: Container(\r\n+          decoration: const BoxDecoration(\r\n+            image: DecorationImage(\r\n\\ No newline at end of file\n+              image: AssetImage(\r\n+                'assets/images/pattern.png',\r\n+              ),\r\n+            ),\r\n+          ),\r\n+          child: Center(\r\n+            child: Image.asset(\r\n+              'assets/images/logo.png',\r\n+            ),\r\n+          ),\r\n+        ),\r\n+      ),\r\n+    );\r\n   }\r\n }\r\n-import 'package:flutter/material.dart';\r\n-\r\n-class HomeScreen extends StatelessWidget {\r\n-  const HomeScreen({super.key});\r\n-  static const String routeName = 'home-screen';\r\n-  @override\r\n-  Widget build(BuildContext context) {\r\n-    return const Scaffold();\r\n-  }\r\n-}\n"
+                },
+                {
+                    "date": 1730898594750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,12 +21,10 @@\n                 'assets/images/pattern.png',\r\n               ),\r\n             ),\r\n           ),\r\n-          child: Center(\r\n-            child: Image.asset(\r\n-              'assets/images/logo.png',\r\n-            ),\r\n+          child: const Center(\r\n+          \r\n           ),\r\n         ),\r\n       ),\r\n     );\r\n"
+                },
+                {
+                    "date": 1730898603491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,26 +4,22 @@\n   const HomeScreen({super.key});\r\n   static const String routeName = 'home-screen';\r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    return Container(\r\n+     return Container(\r\n       decoration: const BoxDecoration(\r\n         image: DecorationImage(\r\n           image: AssetImage(\r\n             'assets/images/pattern.png',\r\n           ),\r\n         ),\r\n       ),\r\n       child: Scaffold(\r\n-        body: Container(\r\n-          decoration: const BoxDecoration(\r\n-            image: DecorationImage(\r\n-              image: AssetImage(\r\n-                'assets/images/pattern.png',\r\n-              ),\r\n-            ),\r\n+        body: Center(\r\n+            child: Image.asset(\r\n+              'assets/images/logo.png',\r\n+   \r\n           ),\r\n-          child: const Center(),\r\n         ),\r\n       ),\r\n     );\r\n   }\r\n"
+                },
+                {
+                    "date": 1730898608596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,13 +12,11 @@\n             'assets/images/pattern.png',\r\n           ),\r\n         ),\r\n       ),\r\n-      child: Scaffold(\r\n-        body: Center(\r\n-          child: Image.asset(\r\n-            'assets/images/logo.png',\r\n-          ),\r\n+      child: const Scaffold(\r\n+        body: const Center(\r\n+        \r\n         ),\r\n       ),\r\n     );\r\n   }\r\n"
                 }
             ],
             "date": 1730895443131,

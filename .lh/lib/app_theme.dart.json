@@ -1,0 +1,170 @@
+{
+    "sourceFile": "lib/app_theme.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 38,
+            "patches": [
+                {
+                    "date": 1730896990541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1730897002610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,11 @@\n-class App\n\\ No newline at end of file\n+class AppTheme {\r\n+  static const Color primary = Color(0XFF5D9CEC);\r\n+  static const Color backgroundLight = Color(0XFFDFECDB);\r\n+  static const Color backgroundDark = Color(0XFF060E1E);\r\n+  static const Color black = Color(0XFF363636);\r\n+  static const Color white = Color(0XFFFFFFFF);\r\n+  static const Color grey = Color(0XFFC8C9CB);\r\n+  static const Color green = Color(0XFF61E757);\r\n+  static const Color red = Color(0XFFEC4B4B);\r\n+static \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730897015210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+class AppTheme {\r\n+  static const Color primary = Color(0XFF5D9CEC);\r\n+  static const Color backgroundLight = Color(0XFFDFECDB);\r\n+  static const Color backgroundDark = Color(0XFF060E1E);\r\n+  static const Color black = Color(0XFF363636);\r\n+  static const Color white = Color(0XFFFFFFFF);\r\n+  static const Color grey = Color(0XFFC8C9CB);\r\n+  static const Color green = Color(0XFF61E757);\r\n+  static const Color red = Color(0XFFEC4B4B);\r\n+static ThemeData lightTheme = ThemeData();\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730897024770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n+import 'package:flutter/material.dart';\r\n+\r\n class AppTheme {\r\n   static const Color primary = Color(0XFF5D9CEC);\r\n   static const Color backgroundLight = Color(0XFFDFECDB);\r\n   static const Color backgroundDark = Color(0XFF060E1E);\r\n@@ -7,16 +9,5 @@\n   static const Color grey = Color(0XFFC8C9CB);\r\n   static const Color green = Color(0XFF61E757);\r\n   static const Color red = Color(0XFFEC4B4B);\r\n static ThemeData lightTheme = ThemeData();\r\n-}\n-class AppTheme {\r\n-  static const Color primary = Color(0XFF5D9CEC);\r\n-  static const Color backgroundLight = Color(0XFFDFECDB);\r\n-  static const Color backgroundDark = Color(0XFF060E1E);\r\n-  static const Color black = Color(0XFF363636);\r\n-  static const Color white = Color(0XFFFFFFFF);\r\n-  static const Color grey = Color(0XFFC8C9CB);\r\n-  static const Color green = Color(0XFF61E757);\r\n-  static const Color red = Color(0XFFEC4B4B);\r\n-static \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730897070495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import 'package:flutter/material.dart';\r\n \r\n class AppTheme {\r\n-  static const Color primary = Color(0XFF5D9CEC);\r\n+  static const Color primary = Color(0XFF#39A552);\r\n   static const Color backgroundLight = Color(0XFFDFECDB);\r\n   static const Color backgroundDark = Color(0XFF060E1E);\r\n   static const Color black = Color(0XFF363636);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n"
+                },
+                {
+                    "date": 1730897090153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n import 'package:flutter/material.dart';\r\n \r\n class AppTheme {\r\n-  static const Color primary = Color(0XFF#39A552);\r\n+  static const Color primary = Color(0XFF39A552);\r\n   static const Color backgroundLight = Color(0XFFDFECDB);\r\n   static const Color backgroundDark = Color(0XFF060E1E);\r\n   static const Color black = Color(0XFF363636);\r\n-  static const Color white = Color(0XFFFFFFFF);\r\n+  static const Color white = Color(0XFF);\r\n   static const Color grey = Color(0XFFC8C9CB);\r\n   static const Color green = Color(0XFF61E757);\r\n   static const Color red = Color(0XFFEC4B4B);\r\n static ThemeData lightTheme = ThemeData();\r\n"
+                },
+                {
+                    "date": 1730897095981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   static const Color primary = Color(0XFF39A552);\r\n   static const Color backgroundLight = Color(0XFFDFECDB);\r\n   static const Color backgroundDark = Color(0XFF060E1E);\r\n   static const Color black = Color(0XFF363636);\r\n-  static const Color white = Color(0XFF);\r\n+  static const Color white = Color(0XFFFFFFFF);\r\n   static const Color grey = Color(0XFFC8C9CB);\r\n   static const Color green = Color(0XFF61E757);\r\n   static const Color red = Color(0XFFEC4B4B);\r\n static ThemeData lightTheme = ThemeData();\r\n"
+                },
+                {
+                    "date": 1730897107206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,9 @@\n import 'package:flutter/material.dart';\r\n \r\n class AppTheme {\r\n   static const Color primary = Color(0XFF39A552);\r\n-  static const Color backgroundLight = Color(0XFFDFECDB);\r\n-  static const Color backgroundDark = Color(0XFF060E1E);\r\n+  static const Color backgroundLight = Color(0XFF#4F5A69);\r\n   static const Color black = Color(0XFF363636);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color grey = Color(0XFFC8C9CB);\r\n   static const Color green = Color(0XFF61E757);\r\n"
+                },
+                {
+                    "date": 1730897117875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import 'package:flutter/material.dart';\r\n \r\n class AppTheme {\r\n   static const Color primary = Color(0XFF39A552);\r\n-  static const Color backgroundLight = Color(0XFF#4F5A69);\r\n+  static const Color black = Color(0XFF4F5A69);\r\n   static const Color black = Color(0XFF363636);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color grey = Color(0XFFC8C9CB);\r\n   static const Color green = Color(0XFF61E757);\r\n"
+                },
+                {
+                    "date": 1730897142430,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,10 @@\n \r\n class AppTheme {\r\n   static const Color primary = Color(0XFF39A552);\r\n   static const Color black = Color(0XFF4F5A69);\r\n-  static const Color black = Color(0XFF363636);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color grey = Color(0XFFC8C9CB);\r\n   static const Color green = Color(0XFF61E757);\r\n-  static const Color red = Color(0XFFEC4B4B);\r\n+  static const Color red = Color(0XFF);\r\n static ThemeData lightTheme = ThemeData();\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730897150672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n   static const Color black = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color grey = Color(0XFFC8C9CB);\r\n   static const Color green = Color(0XFF61E757);\r\n-  static const Color red = Color(0XFF);\r\n+  static const Color red = Color(0XFF#C91C22);\r\n static ThemeData lightTheme = ThemeData();\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730897164061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n class AppTheme {\r\n   static const Color primary = Color(0XFF39A552);\r\n   static const Color black = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n-  static const Color grey = Color(0XFFC8C9CB);\r\n+  static const Color grey = Color(0XFF#003E90);\r\n   static const Color green = Color(0XFF61E757);\r\n-  static const Color red = Color(0XFF#C91C22);\r\n+  static const Color red = Color(0XFFC91C22);\r\n static ThemeData lightTheme = ThemeData();\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730897172928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n class AppTheme {\r\n   static const Color primary = Color(0XFF39A552);\r\n   static const Color black = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n-  static const Color grey = Color(0XFF#003E90);\r\n-  static const Color green = Color(0XFF61E757);\r\n+\r\n   static const Color red = Color(0XFFC91C22);\r\n+  \r\n+  static const Color grey = Color(0XFF003E90);\r\n static ThemeData lightTheme = ThemeData();\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730897179332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,9 @@\n class AppTheme {\r\n   static const Color primary = Color(0XFF39A552);\r\n   static const Color black = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n-\r\n   static const Color red = Color(0XFFC91C22);\r\n-  \r\n   static const Color grey = Color(0XFF003E90);\r\n-static ThemeData lightTheme = ThemeData();\r\n-}\n\\ No newline at end of file\n+  static const Color green = Color(0XFF61E757);\r\n+  static ThemeData lightTheme = ThemeData();\r\n+}\r\n"
+                },
+                {
+                    "date": 1730897187015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n   static const Color black = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color grey = Color(0XFF003E90);\r\n-  static const Color green = Color(0XFF61E757);\r\n+  static const Color green = Color(0XFF);\r\n   static ThemeData lightTheme = ThemeData();\r\n }\r\n"
+                },
+                {
+                    "date": 1730897193423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n   static const Color black = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color grey = Color(0XFF003E90);\r\n-  static const Color green = Color(0XFF);\r\n+  static const Color pink = Color(0XFF);\r\n   static ThemeData lightTheme = ThemeData();\r\n }\r\n"
+                },
+                {
+                    "date": 1730897198867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n   static const Color black = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color grey = Color(0XFF003E90);\r\n-  static const Color pink = Color(0XFF);\r\n+  static const Color pink = Color(0XFFED1E79);\r\n   static ThemeData lightTheme = ThemeData();\r\n }\r\n"
+                },
+                {
+                    "date": 1730897209667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,9 @@\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color grey = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n+    static const Color blue = Color(0XFFC91C22);\r\n+  static const Color grey = Color(0XFF003E90);\r\n+  static const Color pink = Color(0XFFED1E79);\r\n   static ThemeData lightTheme = ThemeData();\r\n }\r\n"
+                },
+                {
+                    "date": 1730897216470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   static const Color primary = Color(0XFF39A552);\r\n   static const Color black = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n-  static const Color grey = Color(0XFF003E90);\r\n+  static const Color darkBlue = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n     static const Color blue = Color(0XFFC91C22);\r\n   static const Color grey = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n"
+                },
+                {
+                    "date": 1730897229109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color darkBlue = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n-    static const Color blue = Color(0XFFC91C22);\r\n+    static const Color lightBlue = Color(0XFFC91C22);\r\n   static const Color grey = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n   static ThemeData lightTheme = ThemeData();\r\n }\r\n"
+                },
+                {
+                    "date": 1730897240754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color darkBlue = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n-    static const Color lightBlue = Color(0XFFC91C22);\r\n+    static const Color brown = Color(0XFFC91C22);\r\n   static const Color grey = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n   static ThemeData lightTheme = ThemeData();\r\n }\r\n"
+                },
+                {
+                    "date": 1730897247595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color darkBlue = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n-    static const Color brown = Color(0XFFC91C22);\r\n+    static const Color brown = Color(0XFF#CF7E48);\r\n   static const Color grey = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n   static ThemeData lightTheme = ThemeData();\r\n }\r\n"
+                },
+                {
+                    "date": 1730897254945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color darkBlue = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n-    static const Color brown = Color(0XFF#CF7E48);\r\n-  static const Color grey = Color(0XFF003E90);\r\n+    static const Color brown = Color(0XFFCF7E48);\r\n+  static const Color light = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n   static ThemeData lightTheme = ThemeData();\r\n }\r\n"
+                },
+                {
+                    "date": 1730897268945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,8 @@\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color darkBlue = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n     static const Color brown = Color(0XFFCF7E48);\r\n-  static const Color light = Color(0XFF003E90);\r\n-  static const Color pink = Color(0XFFED1E79);\r\n+  static const Color lightBlue = Color(0XFF#4882CF);\r\n+  static const Color yellow = Color(0XFFED1E79);\r\n   static ThemeData lightTheme = ThemeData();\r\n }\r\n"
+                },
+                {
+                    "date": 1730897278317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,8 @@\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color darkBlue = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n     static const Color brown = Color(0XFFCF7E48);\r\n-  static const Color lightBlue = Color(0XFF#4882CF);\r\n-  static const Color yellow = Color(0XFFED1E79);\r\n+  static const Color lightBlue = Color(0XFF4882CF);\r\n+  static const Color yellow = Color(0XFF#F2D352);\r\n   static ThemeData lightTheme = ThemeData();\r\n }\r\n"
+                },
+                {
+                    "date": 1730897326178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,15 @@\n import 'package:flutter/material.dart';\r\n \r\n class AppTheme {\r\n   static const Color primary = Color(0XFF39A552);\r\n+  static const Color dark\r\n   static const Color black = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color darkBlue = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n     static const Color brown = Color(0XFFCF7E48);\r\n   static const Color lightBlue = Color(0XFF4882CF);\r\n-  static const Color yellow = Color(0XFF#F2D352);\r\n+  static const Color yellow = Color(0XFFF2D352);\r\n   static ThemeData lightTheme = ThemeData();\r\n }\r\n"
+                },
+                {
+                    "date": 1730897334702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import 'package:flutter/material.dart';\r\n \r\n class AppTheme {\r\n   static const Color primary = Color(0XFF39A552);\r\n-  static const Color dark\r\n+  static const Color darkBlack = Color(0XFF)\r\n   static const Color black = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color darkBlue = Color(0XFF003E90);\r\n"
+                },
+                {
+                    "date": 1730897340380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import 'package:flutter/material.dart';\r\n \r\n class AppTheme {\r\n   static const Color primary = Color(0XFF39A552);\r\n-  static const Color darkBlack = Color(0XFF)\r\n+  static const Color darkBlack = Color(0XFF303030);\r\n   static const Color black = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color darkBlue = Color(0XFF003E90);\r\n"
+                },
+                {
+                    "date": 1730897408706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,10 @@\n class AppTheme {\r\n   static const Color primary = Color(0XFF39A552);\r\n   static const Color darkBlack = Color(0XFF303030);\r\n   static const Color black = Color(0XFF4F5A69);\r\n+  static const Color black = Color(0XFF4F5A69);\r\n+  static const Color black = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color darkBlue = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n"
+                },
+                {
+                    "date": 1730897419078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n class AppTheme {\r\n   static const Color primary = Color(0XFF39A552);\r\n   static const Color darkBlack = Color(0XFF303030);\r\n   static const Color black = Color(0XFF4F5A69);\r\n+  static const Color grey = Color(0XFF79828B);\r\n   static const Color black = Color(0XFF4F5A69);\r\n-  static const Color black = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color darkBlue = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n"
+                },
+                {
+                    "date": 1730897427414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   static const Color primary = Color(0XFF39A552);\r\n   static const Color darkBlack = Color(0XFF303030);\r\n   static const Color black = Color(0XFF4F5A69);\r\n   static const Color grey = Color(0XFF79828B);\r\n-  static const Color black = Color(0XFF4F5A69);\r\n+  static const Color differentBlack = Color(0XFF4F5A69);\r\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color darkBlue = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n"
+                },
+                {
+                    "date": 1730897678192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import 'package:flutter/material.dart';\r\n+\r\n+class AppTheme {\r\n+  static const Color primary = Color(0XFF39A552);\r\n+  static const Color darkBlack = Color(0XFF303030);\r\n+  static const Color black = Color(0XFF4F5A69);\r\n+  static const Color grey = Color(0XFF79828B);\r\n+  static const Color differentBlack = Color(0XFF42505C);\r\n+  static const Color white = Color(0XFFFFFFFF);\r\n+  static const Color red = Color(0XFFC91C22);\r\n+  static const Color darkBlue = Color(0XFF003E90);\r\n+  static const Color pink = Color(0XFFED1E79);\r\n+    static const Color brown = Color(0XFFCF7E48);\r\n+  static const Color lightBlue = Color(0XFF4882CF);\r\n+  static const Color yellow = Color(0XFFF2D352);\r\n+  static ThemeData lightTheme = ThemeData(\r\n+    back\r\n+  );\r\n+}\r\n"
+                },
+                {
+                    "date": 1730897706010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,24 +13,7 @@\n     static const Color brown = Color(0XFFCF7E48);\r\n   static const Color lightBlue = Color(0XFF4882CF);\r\n   static const Color yellow = Color(0XFFF2D352);\r\n   static ThemeData lightTheme = ThemeData(\r\n-    back\r\n+    i\r\n   );\r\n }\r\n-import 'package:flutter/material.dart';\r\n-\r\n-class AppTheme {\r\n-  static const Color primary = Color(0XFF39A552);\r\n-  static const Color darkBlack = Color(0XFF303030);\r\n-  static const Color black = Color(0XFF4F5A69);\r\n-  static const Color grey = Color(0XFF79828B);\r\n-  static const Color differentBlack = Color(0XFF4F5A69);\r\n-  static const Color white = Color(0XFFFFFFFF);\r\n-  static const Color red = Color(0XFFC91C22);\r\n-  static const Color darkBlue = Color(0XFF003E90);\r\n-  static const Color pink = Color(0XFFED1E79);\r\n-    static const Color brown = Color(0XFFCF7E48);\r\n-  static const Color lightBlue = Color(0XFF4882CF);\r\n-  static const Color yellow = Color(0XFFF2D352);\r\n-  static ThemeData lightTheme = ThemeData();\r\n-}\r\n"
+                },
+                {
+                    "date": 1730897716792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,7 @@\n     static const Color brown = Color(0XFFCF7E48);\r\n   static const Color lightBlue = Color(0XFF4882CF);\r\n   static const Color yellow = Color(0XFFF2D352);\r\n   static ThemeData lightTheme = ThemeData(\r\n-    i\r\n+    b\r\n   );\r\n }\r\n"
+                },
+                {
+                    "date": 1730898715738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,7 @@\n     static const Color brown = Color(0XFFCF7E48);\r\n   static const Color lightBlue = Color(0XFF4882CF);\r\n   static const Color yellow = Color(0XFFF2D352);\r\n   static ThemeData lightTheme = ThemeData(\r\n-    b\r\n+    Sca\r\n   );\r\n }\r\n"
+                },
+                {
+                    "date": 1730899036273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,14 @@\n   static const Color white = Color(0XFFFFFFFF);\r\n   static const Color red = Color(0XFFC91C22);\r\n   static const Color darkBlue = Color(0XFF003E90);\r\n   static const Color pink = Color(0XFFED1E79);\r\n-    static const Color brown = Color(0XFFCF7E48);\r\n+  static const Color brown = Color(0XFFCF7E48);\r\n   static const Color lightBlue = Color(0XFF4882CF);\r\n   static const Color yellow = Color(0XFFF2D352);\r\n   static ThemeData lightTheme = ThemeData(\r\n-    Sca\r\n+    appBarTheme: AppBarTheme(\r\n+      c\r\n+    ),\r\n+    scaffoldBackgroundColor: Colors.transparent,\r\n   );\r\n }\r\n"
+                },
+                {
+                    "date": 1730899042620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,10 @@\n   static const Color lightBlue = Color(0XFF4882CF);\r\n   static const Color yellow = Color(0XFFF2D352);\r\n   static ThemeData lightTheme = ThemeData(\r\n     appBarTheme: AppBarTheme(\r\n-      c\r\n+      centerTitle: true,\r\n+      back\r\n     ),\r\n     scaffoldBackgroundColor: Colors.transparent,\r\n   );\r\n }\r\n"
+                },
+                {
+                    "date": 1730899050469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,11 +13,11 @@\n   static const Color brown = Color(0XFFCF7E48);\r\n   static const Color lightBlue = Color(0XFF4882CF);\r\n   static const Color yellow = Color(0XFFF2D352);\r\n   static ThemeData lightTheme = ThemeData(\r\n-    appBarTheme: AppBarTheme(\r\n+    appBarTheme: const AppBarTheme(\r\n       centerTitle: true,\r\n-      backgroundColor: PRI\r\n+      backgroundColor: primary,\r\n     ),\r\n     scaffoldBackgroundColor: Colors.transparent,\r\n   );\r\n }\r\n"
+                },
+                {
+                    "date": 1730899089949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n     appBarTheme: const AppBarTheme(\r\n       centerTitle: true,\r\n       backgroundColor: primary,\r\n       foregroundColor: white,\r\n-      titleTextStyle: t\r\n+      titleTextStyle: te\r\n     ),\r\n     scaffoldBackgroundColor: Colors.transparent,\r\n   );\r\n }\r\n"
+                }
+            ],
+            "date": 1730896990541,
+            "name": "Commit-0",
+            "content": "class App"
+        }
+    ]
+}
