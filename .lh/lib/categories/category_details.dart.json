@@ -1,0 +1,46 @@
+{
+    "sourceFile": "lib/categories/category_details.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1730975495634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1730975506225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,8 @@\n-statl\n\\ No newline at end of file\n+class name extends StatelessWidget {\r\n+  const name({super.key});\r\n+\r\n+  @override\r\n+  Widget build(BuildContext context) {\r\n+    return Container();\r\n+  }\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730975514647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n-class name extends StatelessWidget {\r\n-  const name({super.key});\r\n+import 'package:flutter/material.dart';\r\n \r\n+class CategoryDetails extends StatelessWidget {\r\n+  const CategoryDetails({super.key});\r\n+\r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    return Container();\r\n+    return const Center();\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730975524378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,9 @@\n   const CategoryDetails({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    return const Center();\r\n+    return const Center(\r\n+      child: Text('Category Details'),\r\n+    );\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730975863029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,14 @@\n import 'package:flutter/material.dart';\r\n \r\n class CategoryDetails extends StatelessWidget {\r\n   const CategoryDetails({super.key});\r\n-\r\n+S\r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return const Center(\r\n-      child: Text('Category Details'),\r\n+      child: Text(\r\n+        'Category Details',\r\n\\ No newline at end of file\n+      ),\r\n     );\r\n   }\r\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730975874848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,14 @@\n import 'package:flutter/material.dart';\r\n \r\n class CategoryDetails extends StatelessWidget {\r\n   const CategoryDetails({super.key});\r\n-S\r\n+String CategpryId(),;\r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return const Center(\r\n       child: Text(\r\n         'Category Details',\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730975882242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,14 @@\n import 'package:flutter/material.dart';\r\n \r\n class CategoryDetails extends StatelessWidget {\r\n   const CategoryDetails({super.key});\r\n-String CategpryId(),;\r\n+final String categpryId;\r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return const Center(\r\n       child: Text(\r\n         'Category Details',\r\n       ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1730977617996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,14 @@\n import 'package:flutter/material.dart';\r\n \r\n class CategoryDetails extends StatelessWidget {\r\n-  const CategoryDetails({super.key});\r\n-final String categpryId;\r\n+  const CategoryDetails({super.key, required this.categoryId});\r\n+  final String categoryId;\r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return const Center(\r\n       child: Text(\r\n         'Category Details',\r\n       ),\r\n     );\r\n\\ No newline at end of file\n   }\r\n-}\n+}\r\n"
+                }
+            ],
+            "date": 1730975495633,
+            "name": "Commit-0",
+            "content": "statl"
+        }
+    ]
+}

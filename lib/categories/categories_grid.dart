@@ -4,8 +4,8 @@ import 'package:news/categories/category_item.dart';
 import 'package:news/models/category_model.dart';
 
 class CategoriesGrid extends StatelessWidget {
-  const CategoriesGrid({super.key});
-
+  const CategoriesGrid({super.key, required this.onCategorySelected});
+  final void Function(CategoryModel) onCategorySelected;
   @override
   Widget build(BuildContext context) {
     List<CategoryModel> categories = List.generate(
@@ -42,10 +42,20 @@ class CategoriesGrid extends StatelessWidget {
                 mainAxisSpacing: 24,
                 crossAxisSpacing: 24,
               ),
-              itemBuilder: (_, index) => CategoryItem(
-                category: categories[index],
-                index: index,
-              ),
+              itemBuilder: (_, index) {
+                CategoryModel category = categories[index];
+                return GestureDetector(
+                  onTap: () {
+                    onCategorySelected(
+                      category,
+                    );
+                  },
+                  child: CategoryItem(
+                    category: category,
+                    index: index,
+                  ),
+                );
+              },
               itemCount: categories.length,
             ),
           ),

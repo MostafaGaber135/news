@@ -1,0 +1,26 @@
+{
+    "sourceFile": "lib/drawer/home_drawer.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1730932654501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1730932674690,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,9 @@\n   const HomeDrawer({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    return const Column();\r\n+    return const Column(\r\n+      \r\n+    );\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1730934122275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import 'package:flutter/material.dart';\r\n+\r\n+class HomeDrawer extends StatelessWidget {\r\n+  const HomeDrawer({super.key});\r\n+\r\n+  @override\r\n+  Widget build(BuildContext context) {\r\n+    return Column(\r\n+      m\r\n+      children: [\r\n+        Container(\r\n+          decoration: const BoxDecoration(),\r\n+          child: const Text('News App!'),\r\n+        ),\r\n+      ],\r\n+    );\r\n+  }\r\n+}\r\n"
+                }
+            ],
+            "date": 1730932654501,
+            "name": "Commit-0",
+            "content": "class hOM extends StatelessWidget {\r\n  const hOM({super.key});\r\n\r\n  @override\r\n  Widget build(BuildContext context) {\r\n    return Container();\r\n  }\r\n}"
+        }
+    ]
+}
